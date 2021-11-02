@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessProxy", "ServerlessProxy\ServerlessProxy.csproj", "{4B143A71-F207-4BB9-B881-DC22E06CBE23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerlessProxy.Tests", "ServerlessProxy.Tests\ServerlessProxy.Tests.csproj", "{6EAD409B-ED8D-4A97-BF8D-01EE905947EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B143A71-F207-4BB9-B881-DC22E06CBE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B143A71-F207-4BB9-B881-DC22E06CBE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B143A71-F207-4BB9-B881-DC22E06CBE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B143A71-F207-4BB9-B881-DC22E06CBE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAD409B-ED8D-4A97-BF8D-01EE905947EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAD409B-ED8D-4A97-BF8D-01EE905947EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAD409B-ED8D-4A97-BF8D-01EE905947EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAD409B-ED8D-4A97-BF8D-01EE905947EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DDCC1E2-2E31-41C6-89CB-D879A716BE18}
+	EndGlobalSection
+EndGlobal

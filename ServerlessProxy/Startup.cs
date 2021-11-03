@@ -29,11 +29,12 @@ namespace ServerlessProxy
 
             _settings = Configuration.GetSection("AppSettings").Get<AppSettings>();
             _options = Configuration.GetAWSOptions();
-            _logger = services.BuildServiceProvider().GetService<ILogger<ProxyInvoker>>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            _logger = app.ApplicationServices.GetService<ILogger<ProxyInvoker>>();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
